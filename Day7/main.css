@@ -5,8 +5,17 @@
     @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 
     font-medium rounded-full text-sm py-2.5 text-center mr-2 dark:focus:ring-yellow-900;
 }
+.componentsafter{
+    text-align: center;
+}
 
 @tailwind utilities;
+
+@layer components {
+    .btn1{
+    @apply text-white bg-red-600 rounded-xl px-2 py-1 text-sm;
+}
+}
 .text-vic{
     @apply text-yellow-500 bg-green-400
 }
